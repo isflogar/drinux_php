@@ -1,0 +1,44 @@
+.input-group-addon {
+   background: #E7EBEF !important;
+}
+.jqte_tool_text {
+   height:25px;
+}
+.datepicker{z-index:1151 !important;}
+.select2-container .select2-selection--single {
+   height: 33px;
+   border-radius: 0px !important;
+}
+.dataTable tbody tr td{
+   vertical-align: middle;
+}
+.dataTable tbody tr td:last-child{
+   text-align: center;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before{
+   transform: translateY(-50%);
+   top: 50%;
+}
+.dataTable tbody tr td.child{
+   padding: 0px !important;
+}
+#carga{
+	z-index: 3000;
+	background: rgba(255,255,255,0.7);
+	border-radius: 3px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display:none
+}
+#carga i{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+	color: #000;
+	font-size: 30px;
+}
